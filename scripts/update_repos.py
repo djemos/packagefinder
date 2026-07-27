@@ -5,7 +5,7 @@ import urllib.request
 from pathlib import Path
 import re
 
-BASE = Path("/srv/httpd/htdocs/slackware-browser")
+BASE = Path("/srv/httpd/htdocs/packagefinder")
 
 REPOS_FILE = BASE / "data/repositories.json"
 PACKAGES_FILE = BASE / "data/packages.json"
