@@ -6,7 +6,7 @@ from datetime import date
 
 # ΔΙΑΔΡΟΜΗ ΓΙΑ ΤΗ ΒΑΣΗ SQLITE (SLACKWARE)
 # Προσαρμόστε τη διαδρομή ανάλογα με το project σας
-BASE = Path("/srv/httpd/htdocs/slackware-browser")
+BASE = Path("/srv/httpd/htdocs/packagefinder")
 DB_FILE = BASE / "data/stats.db"
 
 def get_valid_date(prompt_message):

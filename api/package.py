@@ -16,7 +16,7 @@ if not user_agent or any(agent in user_agent for agent in bad_agents):
     print("Access Denied: Automated tools are not allowed.")
     sys.exit(0)
 
-BASE = Path("/srv/httpd/htdocs/slackware-browser")
+BASE = Path("/srv/httpd/htdocs/packagefinder")
 PACKAGES_FILE = BASE / "data/packages.json"
 REPOS_FILE = BASE / "data/repositories.json"
 

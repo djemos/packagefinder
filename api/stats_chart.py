@@ -18,7 +18,7 @@ if not user_agent or any(agent in user_agent for agent in bad_agents):
     sys.exit(0)
     
 # Σωστή διαδρομή για τη βάση δεδομένων
-BASE = Path("/srv/httpd/htdocs/slackware-browser")
+BASE = Path("/srv/httpd/htdocs/packagefinder")
 DB_FILE = BASE / "data/stats.db"
 
 # 1. ΣΩΣΤΗ ΕΚΤΟΥΠΩΣΗ HEADERS ΩΣ BINARY ΜΕ ΑΠΑΓΟΡΕΥΣΗ CACHE
