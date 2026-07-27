@@ -39,23 +39,16 @@ Examples:
 To search for a package
 
     choose from Repository: All Repositories, Arch: x86_64, In Search type firefox
-
     You get results for all Repositories, for firefox all versions x86_64 package.
 
     choose from Repository: 15.0 Arch: x86_64, In Search type firefox
-
     You get results for all Repositories 15.0 , for firefox x86_64 package.
 
     Typing firefox-152 or firefox 152 get firefox 152 x86_64 package of slackel
-
     Typing firefox salix get all firefox packages for all salix versions
-
     Typing firefox salix 15 or firefox 15 salix get firefox package for salix 15.0 version
-
     Typing firefox slackware 15 get firefox package for slackware 15.0
-
     Typing firefox slackware current get firefox package for slackware current
-
     Typing firefox slackware get firefox package for all slackware versions
 
     choose Distribution: salix 15.0 in search type geany you get geany and geany-plugins and geany-themes for salix 15.0
