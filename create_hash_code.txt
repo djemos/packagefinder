@@ -1,0 +1,9 @@
+Open your terminal and run the following command (replace the word NEOS_KWDIKOS with the actual password you want):
+python3 -c "import hashlib; print(hashlib.sha256(('NEOS_KWDIKOS' + 'your_password').encode('utf-8')).hexdigest())"
+Updating stats.py Once you get the new hash from the terminal, open the api/stats.py file and replace the value of the ADMIN_PASSWORD_HASH variable in Block 1:
+# ================================
+# SECURE PASSWORD ENCRYPTION SETUP
+# ================================
+# Replace the string with the new hash you got from the terminal:
+ADMIN_PASSWORD_HASH = "your_new_hash_here"
+PASSWORD_SALT = "your_password"
