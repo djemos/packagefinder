@@ -51,7 +51,7 @@ To search for a package
     Typing firefox slackware current get firefox package for slackware current
     Typing firefox slackware get firefox package for all slackware versions
 
-    choose Distribution: salix 15.0 in search type geany you get geany and geany-plugins and geany-themes for salix 15.0
+    choose from Repository: salix 15.0 in search type geany you get geany and geany-plugins and geany-themes for salix 15.0
     Typing geany 2.1 you get eany and geany-plugins
 
 Copyright (C) 2026 Dimitris Tzemos <dijemos@gmail.com>
